@@ -1,33 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-image: url('https://i.ibb.co/whVbh8J3/Background.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
-
 main {
-    background-color: rgb(153,186,221);
-    padding: 20px;
-    border-radius: 10px;
+width: 494px;
+height: 825px;
+  border-radius: 30px;
+background: #3D3C3C;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 90%;
-    max-width: 600px;
+  opacity: 90%;
 }
 
 h1 {
-    font-size: 24px;
-    text-align: center;
-    color: #333;
+display: flex;
+width: auto;
+margin-top:20px;
+flex-direction: column;
+justify-content: center;
+color: #000;
+text-align: center;
+text-shadow: 0px 0px 15px #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
 }
 
 p {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: black;
 }
 
 form {
@@ -49,19 +55,24 @@ input, select, textarea, button {
 }
 
 textarea {
+    color: black;
     height: 100px;
     resize: vertical;
 }
-
-button {
-    margin-top: 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
+button{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #00ccff;
+  color: white;
+  min-width: 300px;
+   border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 button:hover {
     background-color: #0056b3;
 }
+
